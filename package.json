@@ -1,0 +1,16 @@
+{
+  "name": "chrome-extension-borderfy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Joep Kockelkorn <joepkockelkorn@gmail.com>",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc && yarn run copy",
+    "copy": "bash copy.sh"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.89",
+    "typescript": "^3.6.3"
+  }
+}
