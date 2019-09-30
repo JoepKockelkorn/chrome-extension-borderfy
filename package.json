@@ -6,8 +6,9 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "build": "tsc && yarn run copy",
-    "copy": "bash copy.sh"
+    "build": "yarn run delete && tsc && yarn run copy",
+    "copy": "bash copy.sh",
+    "delete": "bash delete.sh"
   },
   "devDependencies": {
     "@types/chrome": "^0.0.89",
